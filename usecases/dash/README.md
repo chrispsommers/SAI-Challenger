@@ -66,13 +66,13 @@ Run with setup parameter and test parameter:
 make run-saichallenger-tests <setup_file> <test_name>
 ```
 
-## New SAI-Challenger API's introduces in DASH
+## SAI Challenger Enhanced for DASH use cases
 
-<a href="url"><img src="../../img/sai-challenger-dash.png" align="center" width="800" ></a>
+<a href="url"><img src="../../img/saic-dash-dpugen.svg" align="center" width="800" ></a>
 
 Where:
 
-`saigen` - 3d party package - `dpugen`. It generates scalable SAI configuration for DPU use cases.
+`dpugen` - 3d party package - `dpugen`. It generates scalable SAI configuration for DPU use cases. Available on [GitHub](https://github.com/mgheorghe/dpugen) | [PyPi](https://pypi.org/project/dpugen/)
 
 `parser` - command processor Sai.CommandProcessor defined in [`sai.py`](../../common/sai.py).
 
